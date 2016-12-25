@@ -1,0 +1,6 @@
+----------------------------------------------------------------
+2016-12-25 12:14:09.565 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.6.1.0 - (938214): instance a816c00e-0159-35e7-0392-00000c4c6270 
+on database directory /Users/gauge/T2_17/V/src/tiny/daldemo/dalpractice   with class loader sun.misc.Launcher$AppClassLoader@5c647e05
+
+Database Class Loader started - derby.database.classpath=''

@@ -1,0 +1,40 @@
+2016-12-25 20:14:08,043 -0    [main] INFO  org.springframework.context.support.FileSystemXmlApplicationContext  - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@75412c2f: startup date [Sun Dec 25 20:14:08 CST 2016]; root of context hierarchy
+2016-12-25 20:14:08,133 -90   [main] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [/Users/gauge/T2_17/V/src/tiny/daldemo/target/classes/dal.beans.xml]
+2016-12-25 20:14:08,735 -692  [main] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@59f99ea: defining beans [dataSource,dataSourceTransactionManager,transactionTemplate,jdbcTemplate,sessionFactory,hibernateCustomDao,sqlMapClient,ibatisCustomDao,entityManagerFactory,jpaCustomDaoTarget,jpaCustomDao,transactionManager,dslSession,tinyDslCustomDao,dslCustomDao]; root of factory hierarchy
+2016-12-25 20:14:10,387 -2344 [main] INFO  org.hibernate.cfg.Environment  - Hibernate 3.3.1.GA
+2016-12-25 20:14:10,395 -2352 [main] INFO  org.hibernate.cfg.Environment  - hibernate.properties not found
+2016-12-25 20:14:10,398 -2355 [main] INFO  org.hibernate.cfg.Environment  - Bytecode provider name : javassist
+2016-12-25 20:14:10,401 -2358 [main] INFO  org.hibernate.cfg.Environment  - using JDK 1.4 java.sql.Timestamp handling
+2016-12-25 20:14:10,723 -2680 [main] INFO  org.hibernate.cfg.HbmBinder  - Mapping class: custom -> custom
+2016-12-25 20:14:10,741 -2698 [main] INFO  org.springframework.orm.hibernate3.LocalSessionFactoryBean  - Building new Hibernate SessionFactory
+2016-12-25 20:14:10,803 -2760 [main] INFO  org.hibernate.connection.ConnectionProviderFactory  - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+2016-12-25 20:14:10,807 -2764 [main] INFO  org.hibernate.cfg.SettingsFactory  - RDBMS: Apache Derby, version: 10.6.1.0 - (938214)
+2016-12-25 20:14:10,807 -2764 [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC driver: Apache Derby Embedded JDBC Driver, version: 10.6.1.0 - (938214)
+2016-12-25 20:14:10,821 -2778 [main] INFO  org.hibernate.dialect.Dialect  - Using dialect: org.hibernate.dialect.DerbyDialect
+2016-12-25 20:14:10,825 -2782 [main] INFO  org.hibernate.transaction.TransactionFactoryFactory  - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2016-12-25 20:14:10,826 -2783 [main] INFO  org.hibernate.transaction.TransactionManagerLookupFactory  - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2016-12-25 20:14:10,826 -2783 [main] INFO  org.hibernate.cfg.SettingsFactory  - Automatic flush during beforeCompletion(): disabled
+2016-12-25 20:14:10,826 -2783 [main] INFO  org.hibernate.cfg.SettingsFactory  - Automatic session close at end of transaction: disabled
+2016-12-25 20:14:10,827 -2784 [main] INFO  org.hibernate.cfg.SettingsFactory  - Scrollable result sets: enabled
+2016-12-25 20:14:10,827 -2784 [main] INFO  org.hibernate.cfg.SettingsFactory  - JDBC3 getGeneratedKeys(): enabled
+2016-12-25 20:14:10,827 -2784 [main] INFO  org.hibernate.cfg.SettingsFactory  - Connection release mode: auto
+2016-12-25 20:14:10,828 -2785 [main] INFO  org.hibernate.cfg.SettingsFactory  - Default batch fetch size: 1
+2016-12-25 20:14:10,828 -2785 [main] INFO  org.hibernate.cfg.SettingsFactory  - Generate SQL with comments: disabled
+2016-12-25 20:14:10,828 -2785 [main] INFO  org.hibernate.cfg.SettingsFactory  - Order SQL updates by primary key: disabled
+2016-12-25 20:14:10,828 -2785 [main] INFO  org.hibernate.cfg.SettingsFactory  - Order SQL inserts for batching: disabled
+2016-12-25 20:14:10,828 -2785 [main] INFO  org.hibernate.cfg.SettingsFactory  - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2016-12-25 20:14:10,829 -2786 [main] INFO  org.hibernate.hql.ast.ASTQueryTranslatorFactory  - Using ASTQueryTranslatorFactory
+2016-12-25 20:14:10,829 -2786 [main] INFO  org.hibernate.cfg.SettingsFactory  - Query language substitutions: {}
+2016-12-25 20:14:10,829 -2786 [main] INFO  org.hibernate.cfg.SettingsFactory  - JPA-QL strict compliance: disabled
+2016-12-25 20:14:10,829 -2786 [main] INFO  org.hibernate.cfg.SettingsFactory  - Second-level cache: enabled
+2016-12-25 20:14:10,829 -2786 [main] INFO  org.hibernate.cfg.SettingsFactory  - Query cache: disabled
+2016-12-25 20:14:10,829 -2786 [main] INFO  org.hibernate.cfg.SettingsFactory  - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2016-12-25 20:14:10,830 -2787 [main] INFO  org.hibernate.cfg.SettingsFactory  - Optimize cache for minimal puts: disabled
+2016-12-25 20:14:10,830 -2787 [main] INFO  org.hibernate.cfg.SettingsFactory  - Structured second-level cache entries: disabled
+2016-12-25 20:14:10,836 -2793 [main] INFO  org.hibernate.cfg.SettingsFactory  - Echoing all SQL to stdout
+2016-12-25 20:14:10,837 -2794 [main] INFO  org.hibernate.cfg.SettingsFactory  - Statistics: disabled
+2016-12-25 20:14:10,837 -2794 [main] INFO  org.hibernate.cfg.SettingsFactory  - Deleted entity synthetic identifier rollback: disabled
+2016-12-25 20:14:10,837 -2794 [main] INFO  org.hibernate.cfg.SettingsFactory  - Default entity-mode: pojo
+2016-12-25 20:14:10,837 -2794 [main] INFO  org.hibernate.cfg.SettingsFactory  - Named query checking : enabled
+2016-12-25 20:14:12,455 -4412 [main] INFO  org.hibernate.impl.SessionFactoryImpl  - building session factory
+2016-12-25 20:14:12,587 -4544 [main] INFO  org.hibernate.impl.SessionFactoryObjectFactory  - Not binding factory to JNDI, no JNDI name configured
